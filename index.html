@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NELC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+
+    <style>
+        .nelc-body {
+            margin: 0px;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            font-family: "Archivo", sans-serif;
+        }
+
+        .container-1344 {
+            max-width: 1320px;
+            margin: auto;
+            padding: 0 12px;
+        }
+
+        .container-1100 {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 12px;
+        }
+
+        /*** Header Section Start *****/
+        .header-section {
+            background: #ffffff;
+            padding: 40px 0 0 0;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        .header-content-thumb img {
+            width: 250px;
+            height: 120px;
+        }
+
+        .header-content-title {
+            display: inline-block;
+        }
+
+        .header-content-title-one {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 40px;
+            color: #231F20;
+        }
+
+        .header-content-title-two {
+            font-size: 42px;
+            color: #002E57;
+        }
+
+        /*** Header Section End *****/
+
+        /*** Sponsorship-Level Section Start *****/
+        .sponsorship-level-section {
+            padding: 30px 0;
+        }
+
+        .sponsorship-level-title h3 {
+            color: #6e7072;
+            font-size: 22px;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        .sponsorship-level-title h2 {
+            color: #002E57;
+            font-size: 36px;
+            font-weight: 800;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        .sponsorship-level-title h2 span {
+            color: #D14033;
+        }
+
+        .sponsorship-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+
+        .sponsorship-table th {
+            border-bottom: 2px solid #D1D2D4;
+            border-right: 1px solid #ffffff;
+            font-family: "Archivo", sans-serif;
+            font-weight: 400;
+            padding: 10px;
+        }
+
+        .sponsorship-table td {
+            border-bottom: 2px solid #D1D2D4;
+            border-right: 1px solid #ffffff;
+            font-family: "Archivo", sans-serif;
+            font-weight: 400;
+            color: #4F524F;
+            line-height: 1.2;
+            padding: 10px;
+        }
+
+        .table-head-width-one {
+            background: #D1D2D4;
+        }
+
+        .table-head-width-one {
+            min-width: 200px;
+        }
+
+        .table-head-width-two {
+            min-width: 60px;
+            background: #253F8E;
+            color: #ffffff;
+        }
+
+        .table-head-one {
+            background: #F78236;
+            color: #ffffff;
+        }
+
+        .table-date-one {
+            background: #ffffff;
+        }
+
+        .table-date-two {
+            background: #D4D9E8;
+        }
+
+        .table-date-three {
+            background: #FDE0CD;
+        }
+
+        .table-date-center {
+            text-align: center;
+            color: #4F524F;
+        }
+
+        .sponsorship-level-bottom span {
+            display: block;
+            color: #D14033;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        /*** Sponsorship-Level Section End *****/
+
+        /*** Additional Section Start *****/
+        .additional-section {
+            padding: 60px 0 40px 0;
+        }
+
+        .additional-title h2 {
+            color: #002E57;
+            font-size: 40px;
+            font-weight: 800;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        .additional-title h2 span {
+            color: #D14033;
+        }
+
+        .additional-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .additional-table th {
+            border-bottom: 2px solid #D1D2D4;
+            border-right: 2px solid #ffffff;
+            font-family: "Archivo", sans-serif;
+            font-weight: 400;
+            padding: 10px;
+        }
+
+        .additional-table td {
+            border-bottom: 2px solid #D1D2D4;
+            border-right: 2px solid #ffffff;
+            font-family: "Archivo", sans-serif;
+            font-weight: 400;
+            color: #4F524F;
+            padding: 10px;
+        }
+
+        .additional-head-width-one {
+            background: #D1D2D4;
+            min-width: 400px;
+            border-right: 0px solid #ffffff !important;
+        }
+
+        .additional-head-width-two {
+            min-width: 150px;
+            background: #D14033;
+            color: #ffffff;
+        }
+
+        .additional-head-width-three {
+            min-width: 150px;
+            background: #F78236;
+            color: #ffffff;
+        }
+
+        .additional-head-width-four {
+            min-width: 150px;
+            background: #BD9436;
+            color: #ffffff;
+        }
+
+        .additional-head-width-five {
+            min-width: 150px;
+            background: #7A5945;
+            color: #ffffff;
+        }
+
+        .additional-table-date-one {
+            background: #FDE0CD;
+        }
+
+        .additional-table-date-center {
+            text-align: center;
+        }
+
+        /*** Additional Section End *****/
+
+        /*** Regional Section Start *****/
+        .regional-section {
+            padding: 0;
+        }
+
+        .regional-title h2 {
+            color: #002E57;
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 25px;
+            margin-top: 0;
+        }
+
+        .regional-title h2 span {
+            color: #D14033;
+        }
+
+        .regional-head-width-one {
+            background: #D1D2D4;
+            min-width: 500px;
+            border-right: 0px solid #ffffff !important;
+        }
+
+        /*** Regional Section End *****/
+
+        /*** Check Section Start *****/
+        .check-section {
+            padding: 80px 0 20px 0;
+        }
+
+        .check-content {
+            text-align: center;
+            background: #FEF3EB;
+            padding: 60px 0 100px 0;
+        }
+
+        .check-content-top {
+            margin-bottom: 40px;
+        }
+
+        .check-content-top h6 {
+            font-size: 25px;
+            margin-bottom: 10px;
+            color: #231F24;
+            font-weight: 300;
+            margin-top: 0;
+        }
+
+        .check-content-bottom span {
+            display: block;
+            font-size: 22px;
+            color: #231F24;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .check-span-color {
+            color: #D14033;
+            text-decoration: none;
+        }
+
+        /*** Check  Section End *****/
+
+        /*** Footer Section Start *****/
+        .footer-section {
+            background: #ffffff;
+        }
+
+        .footer-content {
+            background: #002E57;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-content-title h3 {
+            font-size: 25px;
+            color: #ffffff;
+            margin-bottom: 40px;
+            margin-top: 0;
+        }
+
+        .footer-content-thumb img {
+            width: 200px;
+            height: 100px;
+        }
+
+        .footer-content-web a {
+            font-size: 25px;
+            color: #ffffff;
+            opacity: 0.8;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+
+
+        @media (max-width: 1200px) {
+            .additional-head-width-two {
+                min-width: 200px;
+            }
+            .additional-head-width-three {
+                min-width: 200px;
+            }
+            .additional-head-width-four {
+                min-width: 200px;
+            }
+            .additional-head-width-five {
+                min-width: 200px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .additional-head-width-one {
+                min-width: 300px;
+            }
+
+            .check-content-top h6 {
+                font-size: 20px;
+                padding: 0 30px;
+            }
+
+            .check-content-bottom span {
+                font-size: 20px;
+                padding: 0 30px;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .header-section {
+                padding: 20px 0;
+            }
+
+            .header-content-thumb img {
+                width: 200px;
+                height: 100px;
+            }
+
+            .header-content-title-one {
+                font-size: 50px;
+                margin-bottom: 30px;
+            }
+
+            .header-content-title-two {
+                font-size: 40px;
+            }
+
+            .sponsorship-level-title h2 {
+                font-size: 30px;
+            }
+
+            .regional-title h2 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            .check-content {
+                padding: 30px 0;
+            }
+
+            .check-content-top {
+                margin-bottom: 20px;
+            }
+
+            .footer-content-title h3 {
+                padding: 0 30px;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .header-section {
+                padding: 5px 0;
+            }
+
+            .header-content-thumb img {
+                width: 180px;
+                height: 80px;
+            }
+
+            .header-content-title-one {
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+
+            .header-content-title-two {
+                font-size: 25px;
+            }
+
+            .sponsorship-level-title h3 {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            .additional-section {
+                padding: 0 0 30px 0;
+            }
+
+            .additional-title h2 {
+                font-size: 28px;
+            }
+
+            .check-section {
+                padding: 30px 0 20px 0;
+            }
+
+            .check-content-top h6 {
+                font-size: 17px;
+            }
+
+            .check-content-bottom span {
+                font-size: 17px;
+            }
+
+            .footer-content-thumb img {
+                width: 150px;
+                height: 70px;
+            }
+        }
+
+        /*** Footer Section End *****/
+    </style>
+</head>
+
+<body class="nelc-body">
+
+    <!--Header Section Start-->
+    <header class="header-section">
+        <div class="container-1344">
+            <div class="header-content">
+                <div class="header-content-thumb">
+                    <img src="header-logo.png" alt="">
+                </div>
+                <div class="header-content-title">
+                    <h1 class="header-content-title-one">NELC 2025</h1>
+                    <h1 class="header-content-title-two">Sponsorship Opportunities</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header Section End-->
+
+    <!--Sponsorship-Level Section Start-->
+    <section class="sponsorship-level-section">
+        <div class="container-1344">
+            <div class="sponsorship-level-title">
+                <h3>NELC 2025 Sponsor Oppurtunities</h3>
+                <h2>2025 NELC Sponsorship <span>Levels</span></h2>
+            </div>
+            <div style="overflow-x:auto;">
+                <table class="sponsorship-table">
+                    <tr>
+                        <th class="table-head-width-one"></th>
+                        <th class="table-head-width-two">Trailblazer <br>$40,000</th>
+                        <th class="table-head-width-two">Diamond <br>$30,000</th>
+                        <th class="table-head-width-two">Emerald <br>$25,000</th>
+                        <th class="table-head-width-two">Gold <br>$15,000</th>
+                        <th class="table-head-width-two">Silver <br>$8,500</th>
+                        <th class="table-head-width-two">Bronze <br>$6,000</th>
+                        <th class="table-head-one table-head-width-two">Reception <br>$15,000</th>
+                        <th class="table-head-one table-head-width-two">Lunch <br>$15,000</th>
+                        <th class="table-head-one table-head-width-two">Corporate** <br>$10,000</th>
+                        <th class="table-head-one table-head-width-two">ICAP <br>$10,000</th>
+                        <th class="table-head-one table-head-width-two">Academy <br>$7,500</th>
+                    </tr>
+                    <tr>
+                        <td class="table-date-one">Complimentary Conference Admissions</td>
+                        <td class="table-date-two table-date-center">15</td>
+                        <td class="table-date-two table-date-center">10</td>
+                        <td class="table-date-two table-date-center">8</td>
+                        <td class="table-date-two table-date-center">5</td>
+                        <td class="table-date-two table-date-center">3</td>
+                        <td class="table-date-two table-date-center">2</td>
+                        <td class="table-date-three table-date-center">4</td>
+                        <td class="table-date-three table-date-center">4</td>
+                        <td class="table-date-three table-date-center">5</td>
+                        <td class="table-date-three table-date-center">4</td>
+                        <td class="table-date-three table-date-center">4</td>
+                    </tr>
+                    <tr>
+                        <td>Logo placement on NELC website, Conference emails, select posts on LinkedIn page, and
+                            on-site
+                            signage
+                        </td>
+                        <td class="table-date-two table-date-center">Top-Tier</td>
+                        <td class="table-date-two table-date-center">Premium</td>
+                        <td class="table-date-two table-date-center">Premium</td>
+                        <td class="table-date-two table-date-center">Premium</td>
+                        <td class="table-date-two table-date-center">Standard</td>
+                        <td class="table-date-two table-date-center">Standard</td>
+                        <td class="table-date-three table-date-center">Standard</td>
+                        <td class="table-date-three table-date-center">Standard</td>
+                        <td class="table-date-three table-date-center">Standard</td>
+                        <td class="table-date-three table-date-center">Standard</td>
+                        <td class="table-date-three table-date-center">Standard</td>
+                    </tr>
+                    <tr>
+                        <td>Highlight on NELC LinkedIn page</td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Record a Video Message for NELC Website & LinkedIn Page</td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Recognized as a Sponsor at one (1) Regional Conference</td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Recognized as a Sponsor at one (1) Local Reception</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Welcome Letter by Sponsor</td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Distribute Branded Gifts at Conference</td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Brief Welcome Remarks at Opening Session</td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday Evening Reception CoSponsor & Remarks</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-star.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Thursday Evening Reception CoSponsor & Remarks</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-check.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-star.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Closing Reception Sponsor</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-star.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Awards Luncheon Co-Sponsor & Remarks</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Two (2) Sponsor attendees at ICAP Dinner</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Special Recognition on ICAP materials</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Special Recognition on ICAP materials</td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-two table-date-center"><img src="table-line-01.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-line-02.png" alt=""></td>
+                        <td class="table-date-three table-date-center"><img src="table-check-2.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="sponsorship-level-bottom">
+                <span>*Sponsor may select to be a Sponsor for the Wednesday Reception, Thursday Reception, or Closing
+                    Reception</span>
+                <span>**Corporate Sponsorship Level only available to non-law firn, corporate sponsors.</span>
+            </div>
+        </div>
+    </section>
+    <!--Sponsorship-Level Section End-->
+
+    <!--Additional Section Start-->
+    <section class="additional-section">
+        <div class="container-1344">
+            <div class="additional-title">
+                <h2>Additional <span>Sponsorships</span></h2>
+            </div>
+            <div style="overflow-x:auto;">
+                <table class="additional-table">
+                    <tr>
+                        <th class="additional-head-width-one"></th>
+                        <th class="additional-head-width-two">Breakfast Sponsor <br>$10,000</th>
+                        <th class="additional-head-width-three">Hospitality Suite Sponsor <br>$5,000</th>
+                        <th class="additional-head-width-four">Conference WiFi Sponsor <br>$5,000</th>
+                        <th class="additional-head-width-five">Session Breaks Sponsor <br>$5,000</th>
+                    </tr>
+                    <tr>
+                        <td>Complimentary Conference Admissions</td>
+                        <td class="additional-table-date-one additional-table-date-center">2</td>
+                        <td class="additional-table-date-one additional-table-date-center">1</td>
+                        <td class="additional-table-date-one additional-table-date-center">1</td>
+                        <td class="additional-table-date-one additional-table-date-center">1</td>
+                    </tr>
+                    <tr>
+                        <td>Logo Placement</td>
+                        <td class="additional-table-date-one additional-table-date-center">During Breakfast</td>
+                        <td class="additional-table-date-one additional-table-date-center">Hospitality Suite</td>
+                        <td class="additional-table-date-one additional-table-date-center">w/WiFi Instructions</td>
+                        <td class="additional-table-date-one additional-table-date-center">During Sessions Breaks</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--Additional Section End-->
+
+    <!--Regional Section Start-->
+    <section class="regional-section">
+        <div class="container-1344">
+            <div class="regional-title">
+                <h2>Regional Conference <span>Sponsorships</span></h2>
+            </div>
+            <div style="overflow-x:auto;">
+                <table class="additional-table">
+                    <tr>
+                        <th class="regional-head-width-one"></th>
+                        <th class="additional-head-width-two">Co-Host <br>$10,000</th>
+                        <th class="additional-head-width-three">Closing Reception <br>$7,500</th>
+                        <th class="additional-head-width-four">Key Sponsor Sponsor <br>$5,000</th>
+                        <th class="additional-head-width-five">Supporting Sponsor <br>$2,500</th>
+                    </tr>
+                    <tr>
+                        <td>Complimentary Admissions</td>
+                        <td class="additional-table-date-one additional-table-date-center">7</td>
+                        <td class="additional-table-date-one additional-table-date-center">5</td>
+                        <td class="additional-table-date-one additional-table-date-center">3</td>
+                        <td class="additional-table-date-one additional-table-date-center">1</td>
+                    </tr>
+                    <tr>
+                        <td>Logo placement on NELC website, Conference emails, select <br>posts on LinkedIn page, and
+                            on-site signage</td>
+                        <td class="additional-table-date-one additional-table-date-center">Top Tier</td>
+                        <td class="additional-table-date-one additional-table-date-center">Premium</td>
+                        <td class="additional-table-date-one additional-table-date-center">Prominent</td>
+                        <td class="additional-table-date-one additional-table-date-center">Standard</td>
+                    </tr>
+                    <tr>
+                        <td>Highlight / mention on NELC LinkedIn page</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Special Recognition at Closing Reception</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Logo and mention in session specific promo materials</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sponsor ad in select conference emails and LinkedIn posts</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Brief Welcome Remarks to open Conference</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Brief Welcome Remarks to Closing Reception</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Special Recognition by NELC President at conference opening</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Option to provide branded gifts for all attendees</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Opportunity for one (1) 3-minute video to be promoted via <br>NELC website, email list, and
+                            LinkedIn</td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-check-2.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                        <td class="additional-table-date-one additional-table-date-center"><img src="table-line-02.png"
+                                alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--Regional Section End-->
+
+    <!--Check Section Start-->
+    <section class="check-section">
+        <div class="container-1100">
+            <div class="check-content">
+                <div class="check-content-top">
+                    <h6>Checks Should be made payable to "NELC" and sent to</h6>
+                    <h6>c/0 Vik Jaitly at Wawa, Inc.</h6>
+                    <h6>260 W. Baltimore Pike</h6>
+                    <h6>Wawa, PA 19063</h6>
+                    <h6>Thank you in advance for your consideration and continued support.</h6>
+                    <h6>Please contact one of the following if you need additional information.</h6>
+                </div>
+                <div class="check-content-bottom">
+                    <span>Vik Jaitly at <a href="mailto:vik.jaitly@wawa.com"
+                            class="check-span-color">vai.jaitly@wawa.com</a> or <a href="tel:01725359856"
+                            class="check-span-color">(908)6011770</a></span>
+                    <span>Richard Amador at <a href="mailto:amador@sanchez-amador.com"
+                            class="check-span-color">amador@sanchez-amador.com</a> or <a href="tel:01725359856"
+                            class="check-span-color">(213)2806372</a></span>
+                    <span>Vik Jaitly at <a href="mailto:rita.srivastava@us.mcd.com"
+                            class="check-span-color">rita.srivastava@us.mcd.com</a> or <a href="tel:01725359856"
+                            class="check-span-color">(630)2079979</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Check Section End-->
+
+    <!--Footer Section Start-->
+    <footer class="footer-section">
+        <div class="container-1100">
+            <div class="footer-content">
+                <div class="footer-content-title">
+                    <h3>We look forward to collaborating with you in 2025 and beyond</h3>
+                </div>
+                <div class="footer-content-thumb">
+                    <img src="footer-logo.png" alt="">
+                </div>
+                <div class="footer-content-web">
+                    <a href="#">www.nelc-law.org</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Section End-->
+
+
+
+</body>
+
+</html>
